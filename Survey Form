@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <h1 id="title" class="center">Training Course Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+    <p id="description">We value your feedback</p>
+  <form id="survey-form">
+  </head>
+
+  <div>
+    <label id="name-label">NAME:</label>
+    <input id="name" type="text" placeholder="First, Last" required></input>
+  </div>
+
+  <div>
+    <label id="email-label">EMAIL:</label>
+    <input id="email" type="email" placeholder="Email address" required></input>
+  </div>
+
+  <div>
+    <label id="number-label">How would you rate the instructor?</label>
+    <input id="number" type="number" min="0" max="10" placeholder="0-10"></input>
+  </div>
+
+  <div>
+    <label id="Age-label">Age:</label>
+    <select id="dropdown" type="number" min="18" max="50">
+      <option value="">Select One</option>
+      <option value="1">18-25</option>
+      <option value="2">25-32</option>
+      <option value="3">32-39</option>
+      <option value="4">39-46</option>
+      <option value="5">39-DEAD</option>
+  </div>
+
+<div>
+    <label id="radio-buttons" (required)></label>
+    <input name="radio-buttons" value="YES" id="YES" type="radio" checked>YES</input>
+    <input name="radio-buttons" value="NO" id="HELL NO" type="radio">HELL NO</input>
+    </div>
+
+  <div>
+    <label>Would you recommend this course to a friend?</label>
+    <input type="checkbox" value="YES">YES</input>
+    <input type="checkbox" value="NO">NO</input>
+  </div>
+
+  <div>
+    <label>Closing Comments</label>
+    <textarea placeholder="Type Here"></textarea>
+    </div>
+    
+    <div>
+    <label>Thank you for taking the time and filling out this survey.</label></div>
+
+    <div>
+    <input id="submit" type="submit"></input>
+    </div>
